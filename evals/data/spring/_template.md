@@ -1,0 +1,8 @@
+---
+source: "TEMPLATE_NOT_REAL_DATA"
+date: "YYYY-MM-DD"
+task_id: "spring-xxx-00"
+expected_output_note: "Describe the human-verified expected Spring query count, rollback state, or contract"
+---
+
+Replace this template with real human-supplied Spring logs or contract payloads before scoring.

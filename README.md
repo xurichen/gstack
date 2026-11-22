@@ -1,1 +1,258 @@
-PHA+CiAgPGEgaHJlZj0iaHR0cHM6Ly93d3cuYWloZXJvLmRldi9zL3NraWxscy1uZXdzbGV0dGVyIj4KICAgIDxwaWN0dXJlPgogICAgICA8c291cmNlIG1lZGlhPSIocHJlZmVycy1jb2xvci1zY2hlbWU6IGRhcmspIiBzcmNzZXQ9Imh0dHBzOi8vcmVzLmNsb3VkaW5hcnkuY29tL3RvdGFsLXR5cGVzY3JpcHQvaW1hZ2UvdXBsb2FkL3YxNzc3MzgyMjc3L3NraWxscy1yZXBvLWRhcmtfMngucG5nIj4KICAgICAgPHNvdXJjZSBtZWRpYT0iKHByZWZlcnMtY29sb3Itc2NoZW1lOiBsaWdodCkiIHNyY3NldD0iaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vdG90YWwtdHlwZXNjcmlwdC9pbWFnZS91cGxvYWQvdjE3NzczODIyNzcvc2tpbGwtcmVwby1saWdodF8yeC5wbmciPgogICAgICA8aW1nIGFsdD0iU2tpbGxzIiBzcmM9Imh0dHBzOi8vcmVzLmNsb3VkaW5hcnkuY29tL3RvdGFsLXR5cGVzY3JpcHQvaW1hZ2UvdXBsb2FkL3YxNzc3MzgyMjc3L3NraWxsLXJlcG8tbGlnaHRfMngucG5nIiB3aWR0aD0iMzY5Ij4KICAgIDwvcGljdHVyZT4KICA8L2E+CjwvcD4KCiMgU2tpbGxzIEZvciBSZWFsIEVuZ2luZWVycwoKWyFbc2tpbGxzLnNoXShodHRwczovL3NraWxscy5zaC9iL21hdHRwb2NvY2svc2tpbGxzKV0oaHR0cHM6Ly9za2lsbHMuc2gvbWF0dHBvY29jay9za2lsbHMpCgpNeSBhZ2VudCBza2lsbHMgdGhhdCBJIHVzZSBldmVyeSBkYXkgdG8gZG8gcmVhbCBlbmdpbmVlcmluZyAtIG5vdCB2aWJlIGNvZGluZy4KCkRldmVsb3BpbmcgcmVhbCBhcHBsaWNhdGlvbnMgaXMgaGFyZC4gQXBwcm9hY2hlcyBsaWtlIEdTRCwgQk1BRCwgYW5kIFNwZWMtS2l0IHRyeSB0byBoZWxwIGJ5IG93bmluZyB0aGUgcHJvY2Vzcy4gQnV0IHdoaWxlIGRvaW5nIHNvLCB0aGV5IHRha2UgYXdheSB5b3VyIGNvbnRyb2wgYW5kIG1ha2UgYnVncyBpbiB0aGUgcHJvY2VzcyBoYXJkIHRvIHJlc29sdmUuCgpUaGVzZSBza2lsbHMgYXJlIGRlc2lnbmVkIHRvIGJlIHNtYWxsLCBlYXN5IHRvIGFkYXB0LCBhbmQgY29tcG9zYWJsZS4gVGhleSB3b3JrIHdpdGggYW55IG1vZGVsLiBUaGV5J3JlIGJhc2VkIG9uIGRlY2FkZXMgb2YgZW5naW5lZXJpbmcgZXhwZXJpZW5jZS4gSGFjayBhcm91bmQgd2l0aCB0aGVtLiBNYWtlIHRoZW0geW91ciBvd24uIEVuam95LgoKSWYgeW91IHdhbnQgdG8ga2VlcCB1cCB3aXRoIGNoYW5nZXMgdG8gdGhlc2Ugc2tpbGxzLCBhbmQgYW55IG5ldyBvbmVzIEkgY3JlYXRlLCB5b3UgY2FuIGpvaW4gfjYwLDAwMCBvdGhlciBkZXZzIG9uIG15IG5ld3NsZXR0ZXI6CgpbU2lnbiBVcCBUbyBUaGUgTmV3c2xldHRlcl0oaHR0cHM6Ly93d3cuYWloZXJvLmRldi9zL3NraWxscy1uZXdzbGV0dGVyKQoKIyMgSW5zdGFsbGF0aW9uICgzMC1zZWNvbmQgc2V0dXApCgpBIHBsdWdpbiB1cGRhdGVzIGl0c2VsZi4gW3NraWxscy5zaF0oaHR0cHM6Ly9za2lsbHMuc2gvbWF0dHBvY29jay9za2lsbHMpIGNvcGllcyBlZGl0YWJsZSBmaWxlcyBpbnRvIHlvdXIgcHJvamVjdCwgYW5kIHlvdSB1cGRhdGUgdGhlbSBieSBoYW5kLiBQaWNrIG9uZSBwZXIgYWdlbnQsIGJlY2F1c2UgaW5zdGFsbGluZyBib3RoIGdpdmVzIHlvdSBldmVyeSBza2lsbCB0d2ljZS4KCiMjIyAxLiBHZXQgdGhlIHNraWxscwoKPGRldGFpbHM+CjxzdW1tYXJ5PjxzdHJvbmc+Q2xhdWRlIENvZGU8L3N0cm9uZz48L3N1bW1hcnk+CgpgYGBiYXNoCmNsYXVkZSBwbHVnaW4gaW5zdGFsbCBtYXR0cG9jb2NrLXNraWxsc0BjbGF1ZGUtcGx1Z2lucy1vZmZpY2lhbApgYGAKClVwZGF0ZXMgaXRzZWxmIGJ5IGRlZmF1bHQuCgo8L2RldGFpbHM+Cgo8ZGV0YWlscz4KPHN1bW1hcnk+PHN0cm9uZz5Db2RleDwvc3Ryb25nPjwvc3VtbWFyeT4KCmBgYGJhc2gKY29kZXggcGx1Z2luIG1hcmtldHBsYWNlIGFkZCBtYXR0cG9jb2NrL3NraWxscwpjb2RleCBwbHVnaW4gYWRkIG1hdHRwb2NvY2stc2tpbGxzQG1hdHRwb2NvY2sKYGBgCgpVcGRhdGVzIGl0c2VsZiBhdCBzdGFydHVwLgoKPC9kZXRhaWxzPgoKPGRldGFpbHM+CjxzdW1tYXJ5PjxzdHJvbmc+R2l0SHViIENvcGlsb3Q8L3N0cm9uZz4gKENMSSBhbmQgVlMgQ29kZSk8L3N1bW1hcnk+CgpgYGBiYXNoCmNvcGlsb3QgcGx1Z2luIG1hcmtldHBsYWNlIGFkZCBtYXR0cG9jb2NrL3NraWxscwpjb3BpbG90IHBsdWdpbiBpbnN0YWxsIG1hdHRwb2NvY2stc2tpbGxzQG1hdHRwb2NvY2sKYGBgCgpUaGVuLCBvbmNlLCBhZGQgdG8gYH4vLmNvcGlsb3Qvc2V0dGluZ3MuanNvbmA6CgpgYGBqc29uCnsKICAiZXh0cmFLbm93bk1hcmtldHBsYWNlcyI6IHsKICAgICJtYXR0cG9jb2NrIjogeyAic291cmNlIjogeyAic291cmNlIjogImdpdGh1YiIsICJyZXBvIjogIm1hdHRwb2NvY2svc2tpbGxzIiB9LCAiYXV0b1VwZGF0ZSI6IHRydWUgfQogIH0KfQpgYGAKCkluIFZTIENvZGUsIHJ1biAqKkNoYXQ6IEluc3RhbGwgUGx1Z2luIEZyb20gU291cmNlKiogYW5kIGVudGVyIGBodHRwczovL2dpdGh1Yi5jb20vbWF0dHBvY29jay9za2lsbHNgLiBJdCB1cGRhdGVzIGRhaWx5LgoKPC9kZXRhaWxzPgoKPGRldGFpbHM+CjxzdW1tYXJ5PjxzdHJvbmc+R2VtaW5pIENMSTwvc3Ryb25nPiAobWFudWFsIHVwZGF0ZXMpPC9zdW1tYXJ5PgoKYGBgYmFzaApnZW1pbmkgc2tpbGxzIGluc3RhbGwgaHR0cHM6Ly9naXRodWIuY29tL21hdHRwb2NvY2svc2tpbGxzLmdpdCAtLXBhdGggc2tpbGxzL2VuZ2luZWVyaW5nCmdlbWluaSBza2lsbHMgaW5zdGFsbCBodHRwczovL2dpdGh1Yi5jb20vbWF0dHBvY29jay9za2lsbHMuZ2l0IC0tcGF0aCBza2lsbHMvcHJvZHVjdGl2aXR5CmBgYAoKUmUtcnVuIGJvdGggY29tbWFuZHMgdG8gdXBkYXRlLgoKPC9kZXRhaWxzPgoKPGRldGFpbHM+CjxzdW1tYXJ5PjxzdHJvbmc+QW55IG90aGVyIGFnZW50LCBvciBlZGl0YWJsZSBmaWxlczwvc3Ryb25nPiAobWFudWFsIHVwZGF0ZXMpPC9zdW1tYXJ5PgoKYGBgYmFzaApucHggc2tpbGxzQGxhdGVzdCBhZGQgbWF0dHBvY29jay9za2lsbHMgLWEgPGFnZW50PiAgIyBjdXJzb3IsIG9wZW5jb2RlLCBkZXZpbiwgd2luZHN1cmYsIGFtcCwgcGk7IG9taXQgLWEgdG8gY2hvb3NlCmBgYAoKV2hlbiB0aGUgaW5zdGFsbGVyIGFza3Mgd2hpY2ggc2tpbGxzIHRvIHRha2UsIGluY2x1ZGUgYHNldHVwLW1hdHQtcG9jb2NrLXNraWxsc2AuIFRvIHVwZGF0ZSwgcnVuIGBucHggc2tpbGxzQGxhdGVzdCB1cGRhdGVgLCBhbmQgcmUtcnVuIGBhZGRgIHRvIHBpY2sgdXAgbmV3IHNraWxscy4KCjwvZGV0YWlscz4KCiMjIyAyLiBSdW4gYC9zZXR1cC1tYXR0LXBvY29jay1za2lsbHNgCgpJbiB5b3VyIGFnZW50LCBydW4gaXQgb25jZSBwZXIgcmVwby4gSXQgd2lsbDoKCi0gQXNrIHlvdSB3aGljaCBpc3N1ZSB0cmFja2VyIHlvdSB3YW50IHRvIHVzZSAoR2l0SHViLCBHaXRMYWIsIGxvY2FsIGZpbGVzLCBvciBhbnl0aGluZyBlbHNlIHlvdSBkZXNjcmliZSkKLSBBc2sgeW91IHdoYXQgbGFiZWxzIHlvdSBhcHBseSB0byB0aWNrZXRzIHdoZW4geW91IHRyaWFnZSB0aGVtIChgL3RyaWFnZWAgdXNlcyBsYWJlbHMpCi0gQXNrIHlvdSB3aGVyZSB5b3Ugd2FudCB0byBzYXZlIGFueSBkb2NzIHdlIGNyZWF0ZQoKIyMjIDMuIEJhbSAtIHlvdSdyZSByZWFkeSB0byBnby4KCiMjIFdoeSBUaGVzZSBTa2lsbHMgRXhpc3QKCkkgYnVpbHQgdGhlc2Ugc2tpbGxzIGFzIGEgd2F5IHRvIGZpeCBjb21tb24gZmFpbHVyZSBtb2RlcyBJIHNlZSB3aXRoIENsYXVkZSBDb2RlLCBDb2RleCwgYW5kIG90aGVyIGNvZGluZyBhZ2VudHMuCgojIyMgIzE6IFRoZSBBZ2VudCBEaWRuJ3QgRG8gV2hhdCBJIFdhbnQKCj4gIk5vLW9uZSBrbm93cyBleGFjdGx5IHdoYXQgdGhleSB3YW50Igo+Cj4gRGF2aWQgVGhvbWFzICYgQW5kcmV3IEh1bnQsIFtUaGUgUHJhZ21hdGljIFByb2dyYW1tZXJdKGh0dHBzOi8vd3d3LmFtYXpvbi5jby51ay9QcmFnbWF0aWMtUHJvZ3JhbW1lci1Bbm5pdmVyc2FyeS1Kb3VybmV5LU1hc3RlcnkvZHAvQjA4MzNGMVQzVikKCioqVGhlIFByb2JsZW0qKi4gVGhlIG1vc3QgY29tbW9uIGZhaWx1cmUgbW9kZSBpbiBzb2Z0d2FyZSBkZXZlbG9wbWVudCBpcyBtaXNhbGlnbm1lbnQuIFlvdSB0aGluayB0aGUgZGV2IGtub3dzIHdoYXQgeW91IHdhbnQuIFRoZW4geW91IHNlZSB3aGF0IHRoZXkndmUgYnVpbHQgLSBhbmQgeW91IHJlYWxpemUgaXQgZGlkbid0IHVuZGVyc3RhbmQgeW91IGF0IGFsbC4KClRoaXMgaXMganVzdCB0aGUgc2FtZSBpbiB0aGUgQUkgYWdlLiBUaGVyZSBpcyBhIGNvbW11bmljYXRpb24gZ2FwIGJldHdlZW4geW91IGFuZCB0aGUgYWdlbnQuIFRoZSBmaXggZm9yIHRoaXMgaXMgYSAqKmdyaWxsaW5nIHNlc3Npb24qKiAtIGdldHRpbmcgdGhlIGFnZW50IHRvIGFzayB5b3UgZGV0YWlsZWQgcXVlc3Rpb25zIGFib3V0IHdoYXQgeW91J3JlIGJ1aWxkaW5nLgoKKipUaGUgRml4KiogaXMgdG8gdXNlOgoKLSBbYC9ncmlsbC1tZWBdKC4vc2tpbGxzL3Byb2R1Y3Rpdml0eS9ncmlsbC1tZS9TS0lMTC5tZCkgLSBmb3Igbm9uLWNvZGUgdXNlcwotIFtgL2dyaWxsLXdpdGgtZG9jc2BdKC4vc2tpbGxzL2VuZ2luZWVyaW5nL2dyaWxsLXdpdGgtZG9jcy9TS0lMTC5tZCkgLSBzYW1lIGFzIFtgL2dyaWxsLW1lYF0oLi9za2lsbHMvcHJvZHVjdGl2aXR5L2dyaWxsLW1lL1NLSUxMLm1kKSwgYnV0IGFkZHMgbW9yZSBnb29kaWVzIChzZWUgYmVsb3cpCgpUaGVzZSBhcmUgbXkgbW9zdCBwb3B1bGFyIHNraWxscy4gVGhleSBoZWxwIHlvdSBhbGlnbiB3aXRoIHRoZSBhZ2VudCBiZWZvcmUgeW91IGdldCBzdGFydGVkLCBhbmQgdGhpbmsgZGVlcGx5IGFib3V0IHRoZSBjaGFuZ2UgeW91J3JlIG1ha2luZy4gVXNlIHRoZW0gX2V2ZXJ5XyB0aW1lIHlvdSB3YW50IHRvIG1ha2UgYSBjaGFuZ2UuCgojIyMgIzI6IFRoZSBBZ2VudCBJcyBXYXkgVG9vIFZlcmJvc2UKCj4gV2l0aCBhIHViaXF1aXRvdXMgbGFuZ3VhZ2UsIGNvbnZlcnNhdGlvbnMgYW1vbmcgZGV2ZWxvcGVycyBhbmQgZXhwcmVzc2lvbnMgb2YgdGhlIGNvZGUgYXJlIGFsbCBkZXJpdmVkIGZyb20gdGhlIHNhbWUgZG9tYWluIG1vZGVsLgo+Cj4gRXJpYyBFdmFucywgW0RvbWFpbi1Ecml2ZW4tRGVzaWduXShodHRwczovL3d3dy5hbWF6b24uY28udWsvRG9tYWluLURyaXZlbi1EZXNpZ24tVGFja2xpbmctQ29tcGxleGl0eS1Tb2Z0d2FyZS9kcC8wMzIxMTI1MjE1KQoKKipUaGUgUHJvYmxlbSoqOiBBdCB0aGUgc3RhcnQgb2YgYSBwcm9qZWN0LCBkZXZzIGFuZCB0aGUgcGVvcGxlIHRoZXkncmUgYnVpbGRpbmcgdGhlIHNvZnR3YXJlIGZvciAodGhlIGRvbWFpbiBleHBlcnRzKSBhcmUgdXN1YWxseSBzcGVha2luZyBkaWZmZXJlbnQgbGFuZ3VhZ2VzLgoKSSBmZWx0IHRoZSBzYW1lIHRlbnNpb24gd2l0aCBteSBhZ2VudHMuIEFnZW50cyBhcmUgdXN1YWxseSBkcm9wcGVkIGludG8gYSBwcm9qZWN0IGFuZCBhc2tlZCB0byBmaWd1cmUgb3V0IHRoZSBqYXJnb24gYXMgdGhleSBnby4gU28gdGhleSB1c2UgMjAgd29yZHMgd2hlcmUgMSB3aWxsIGRvLgoKKipUaGUgRml4KiogZm9yIHRoaXMgaXMgYSBzaGFyZWQgbGFuZ3VhZ2UuIEl0J3MgYSBkb2N1bWVudCB0aGF0IGhlbHBzIGFnZW50cyBkZWNvZGUgdGhlIGphcmdvbiB1c2VkIGluIHRoZSBwcm9qZWN0LgoKPGRldGFpbHM+CjxzdW1tYXJ5PgpFeGFtcGxlCjwvc3VtbWFyeT4KCkhlcmUncyBhbiBleGFtcGxlIFtnbG9zc2FyeV0oaHR0cHM6Ly9naXRodWIuY29tL21hdHRwb2NvY2svY291cnNlLXZpZGVvLW1hbmFnZXIvYmxvYi8wNzZhNWE3YTE4MmRiMGZlMWU2Mjk3MWRkN2E2OGJjYWRmMDEwZjFjL0NPTlRFWFQubWQpIChzdGlsbCBuYW1lZCBgQ09OVEVYVC5tZGAgYXQgdGhhdCBwaW5uZWQgY29tbWl0LCBmcm9tIGJlZm9yZSB0aGUgc2tpbGxzIHJlbmFtZWQgdGhlIGNvbnZlbnRpb24pLCBmcm9tIG15IGBjb3Vyc2UtdmlkZW8tbWFuYWdlcmAgcmVwby4gV2hpY2ggb25lIGlzIGVhc2llciB0byByZWFkPwoKLSAqKkJFRk9SRSoqOiAiVGhlcmUncyBhIHByb2JsZW0gd2hlbiBhIGxlc3NvbiBpbnNpZGUgYSBzZWN0aW9uIG9mIGEgY291cnNlIGlzIG1hZGUgJ3JlYWwnIChpLmUuIGdpdmVuIGEgc3BvdCBpbiB0aGUgZmlsZSBzeXN0ZW0pIgotICoqQUZURVIqKjogIlRoZXJlJ3MgYSBwcm9ibGVtIHdpdGggdGhlIG1hdGVyaWFsaXphdGlvbiBjYXNjYWRlIgoKVGhpcyBjb25jaXNpb24gcGF5cyBvZmYgc2Vzc2lvbiBhZnRlciBzZXNzaW9uLgoKPC9kZXRhaWxzPgoKVGhpcyBpcyBidWlsdCBpbnRvIFtgL2dyaWxsLXdpdGgtZG9jc2BdKC4vc2tpbGxzL2VuZ2luZWVyaW5nL2dyaWxsLXdpdGgtZG9jcy9TS0lMTC5tZCkuIEl0J3MgYSBncmlsbGluZyBzZXNzaW9uLCBidXQgdGhhdCBoZWxwcyB5b3UgYnVpbGQgYSBzaGFyZWQgbGFuZ3VhZ2Ugd2l0aCB0aGUgQUksIGFuZCBkb2N1bWVudCBoYXJkLXRvLWV4cGxhaW4gZGVjaXNpb25zIGluIEFEUidzLgoKSXQncyBoYXJkIHRvIGV4cGxhaW4gaG93IHBvd2VyZnVsIHRoaXMgaXMuIEl0IG1pZ2h0IGJlIHRoZSBzaW5nbGUgY29vbGVzdCB0ZWNobmlxdWUgaW4gdGhpcyByZXBvLiBUcnkgaXQsIGFuZCBzZWUuCgo+IFshVElQXQo+IEEgc2hhcmVkIGxhbmd1YWdlIGhhcyBtYW55IG90aGVyIGJlbmVmaXRzIHRoYW4gcmVkdWNpbmcgdmVyYm9zaXR5Ogo+Cj4gLSAqKlZhcmlhYmxlcywgZnVuY3Rpb25zIGFuZCBmaWxlcyBhcmUgbmFtZWQgY29uc2lzdGVudGx5KiosIHVzaW5nIHRoZSBzaGFyZWQgbGFuZ3VhZ2UKPiAtIEFzIGEgcmVzdWx0LCB0aGUgKipjb2RlYmFzZSBpcyBlYXNpZXIgdG8gbmF2aWdhdGUqKiBmb3IgdGhlIGFnZW50Cj4gLSBUaGUgYWdlbnQgYWxzbyAqKnNwZW5kcyBmZXdlciB0b2tlbnMgb24gdGhpbmtpbmcqKiwgYmVjYXVzZSBpdCBoYXMgYWNjZXNzIHRvIGEgbW9yZSBjb25jaXNlIGxhbmd1YWdlCgojIyMgIzM6IFRoZSBDb2RlIERvZXNuJ3QgV29yawoKPiAiQWx3YXlzIHRha2Ugc21hbGwsIGRlbGliZXJhdGUgc3RlcHMuIFRoZSByYXRlIG9mIGZlZWRiYWNrIGlzIHlvdXIgc3BlZWQgbGltaXQuIE5ldmVyIHRha2Ugb24gYSB0YXNrIHRoYXTigJlzIHRvbyBiaWcuIgo+Cj4gRGF2aWQgVGhvbWFzICYgQW5kcmV3IEh1bnQsIFtUaGUgUHJhZ21hdGljIFByb2dyYW1tZXJdKGh0dHBzOi8vd3d3LmFtYXpvbi5jby51ay9QcmFnbWF0aWMtUHJvZ3JhbW1lci1Bbm5pdmVyc2FyeS1Kb3VybmV5LU1hc3RlcnkvZHAvQjA4MzNGMVQzVikKCioqVGhlIFByb2JsZW0qKjogTGV0J3Mgc2F5IHRoYXQgeW91IGFuZCB0aGUgYWdlbnQgYXJlIGFsaWduZWQgb24gd2hhdCB0byBidWlsZC4gV2hhdCBoYXBwZW5zIHdoZW4gdGhlIGFnZW50IF9zdGlsbF8gcHJvZHVjZXMgY3JhcD8KCkl0J3MgdGltZSB0byBsb29rIGF0IHlvdXIgZmVlZGJhY2sgbG9vcHMuIFdpdGhvdXQgZmVlZGJhY2sgb24gaG93IHRoZSBjb2RlIGl0IHByb2R1Y2VzIGFjdHVhbGx5IHJ1bnMsIHRoZSBhZ2VudCB3aWxsIGJlIGZseWluZyBibGluZC4KCioqVGhlIEZpeCoqOiBZb3UgbmVlZCB0aGUgdXN1YWwgdHJhbmNoZSBvZiBmZWVkYmFjayBsb29wczogc3RhdGljIHR5cGVzLCBicm93c2VyIGFjY2VzcywgYW5kIGF1dG9tYXRlZCB0ZXN0cy4KCkZvciBhdXRvbWF0ZWQgdGVzdHMsIGEgcmVkLWdyZWVuLXJlZmFjdG9yIGxvb3AgaXMgY3JpdGljYWwuIFRoaXMgaXMgd2hlcmUgdGhlIGFnZW50IHdyaXRlcyBhIGZhaWxpbmcgdGVzdCBmaXJzdCwgdGhlbiBmaXhlcyB0aGUgdGVzdC4gVGhpcyBoZWxwcyBnaXZlIHRoZSBhZ2VudCBhIGNvbnNpc3RlbnQgbGV2ZWwgb2YgZmVlZGJhY2sgdGhhdCByZXN1bHRzIGluIGZhciBiZXR0ZXIgY29kZS4KCkkndmUgYnVpbHQgYSAqKltgL3RkZGBdKC4vc2tpbGxzL2VuZ2luZWVyaW5nL3RkZC9TS0lMTC5tZCkgc2tpbGwqKiB5b3UgY2FuIHNsb3QgaW50byBhbnkgcHJvamVjdC4gSXQgZW5jb3VyYWdlcyByZWQtZ3JlZW4tcmVmYWN0b3IgYW5kIGdpdmVzIHRoZSBhZ2VudCBwbGVudHkgb2YgZ3VpZGFuY2Ugb24gd2hhdCBtYWtlcyBnb29kIGFuZCBiYWQgdGVzdHMuCgpGb3IgZGVidWdnaW5nLCBJJ3ZlIGFsc28gYnVpbHQgYSAqKltgL2RpYWdub3NpbmctYnVnc2BdKC4vc2tpbGxzL2VuZ2luZWVyaW5nL2RpYWdub3NpbmctYnVncy9TS0lMTC5tZCkqKiBza2lsbCB0aGF0IHdyYXBzIGJlc3QgZGVidWdnaW5nIHByYWN0aWNlcyBpbnRvIGEgZGlzY2lwbGluZWQgbG9vcCwgZ2F0ZWQgcGhhc2UgYnkgcGhhc2UuCgojIyMgIzQ6IFdlIEJ1aWx0IEEgQmFsbCBPZiBNdWQKCj4gIkludmVzdCBpbiB0aGUgZGVzaWduIG9mIHRoZSBzeXN0ZW0gX2V2ZXJ5IGRheV8uIgo+Cj4gS2VudCBCZWNrLCBbRXh0cmVtZSBQcm9ncmFtbWluZyBFeHBsYWluZWRdKGh0dHBzOi8vd3d3LmFtYXpvbi5jby51ay9FeHRyZW1lLVByb2dyYW1taW5nLUV4cGxhaW5lZC1FbWJyYWNlLUNoYW5nZS9kcC8wMzIxMjc4NjU4KQoKPiAiVGhlIGJlc3QgbW9kdWxlcyBhcmUgZGVlcC4gVGhleSBhbGxvdyBhIGxvdCBvZiBmdW5jdGlvbmFsaXR5IHRvIGJlIGFjY2Vzc2VkIHRocm91Z2ggYSBzaW1wbGUgaW50ZXJmYWNlLiIKPgo+IEpvaG4gT3VzdGVyaG91dCwgW0EgUGhpbG9zb3BoeSBPZiBTb2Z0d2FyZSBEZXNpZ25dKGh0dHBzOi8vd3d3LmFtYXpvbi5jby51ay9QaGlsb3NvcGh5LVNvZnR3YXJlLURlc2lnbi0ybmQvZHAvMTczMjEwMjIxWCkKCioqVGhlIFByb2JsZW0qKjogTW9zdCBhcHBzIGJ1aWx0IHdpdGggYWdlbnRzIGFyZSBjb21wbGV4IGFuZCBoYXJkIHRvIGNoYW5nZS4gQmVjYXVzZSBhZ2VudHMgY2FuIHJhZGljYWxseSBzcGVlZCB1cCBjb2RpbmcsIHRoZXkgYWxzbyBhY2NlbGVyYXRlIHNvZnR3YXJlIGVudHJvcHkuIENvZGViYXNlcyBnZXQgbW9yZSBjb21wbGV4IGF0IGFuIHVucHJlY2VkZW50ZWQgcmF0ZS4KCioqVGhlIEZpeCoqIGZvciB0aGlzIGlzIGEgcmFkaWNhbCBuZXcgYXBwcm9hY2ggdG8gQUktcG93ZXJlZCBkZXZlbG9wbWVudDogY2FyaW5nIGFib3V0IHRoZSBkZXNpZ24gb2YgdGhlIGNvZGUuCgpUaGlzIGlzIGJ1aWx0IGluIHRvIGV2ZXJ5IGxheWVyIG9mIHRoZXNlIHNraWxsczoKCi0gW2AvdG8tc3BlY2BdKC4vc2tpbGxzL2VuZ2luZWVyaW5nL3RvLXNwZWMvU0tJTEwubWQpIHF1aXp6ZXMgeW91IGFib3V0IHdoaWNoIG1vZHVsZXMgeW91J3JlIHRvdWNoaW5nIGJlZm9yZSBjcmVhdGluZyBhIHNwZWMKCkFuZCBjcnVjaWFsbHksIFtgL2ltcHJvdmUtY29kZWJhc2UtYXJjaGl0ZWN0dXJlYF0oLi9za2lsbHMvZW5naW5lZXJpbmcvaW1wcm92ZS1jb2RlYmFzZS1hcmNoaXRlY3R1cmUvU0tJTEwubWQpIHN1cnZleXMgYSBjb2RlYmFzZSBmb3IgZGVlcGVuaW5nIG9wcG9ydHVuaXRpZXMgYW5kIGhhbmRzIHlvdSB0aGUgY2FuZGlkYXRlcy4gSSByZWNvbW1lbmQgcnVubmluZyBpdCBvbiB5b3VyIGNvZGViYXNlIG9uY2UgZXZlcnkgZmV3IGRheXMuIEl0IGlzIGEgc3VydmV5LCBub3QgYSByZXNjdWU6IG9uIGEgZ2VudWluZWx5IG9sZCBjb2RlYmFzZSBpdCB3aWxsIGZpbmQgcmVhbCBjYW5kaWRhdGVzLCBidXQgaXQgd29uJ3QgdW50YW5nbGUgdGhlIG11ZCBmb3IgeW91LgoKIyMjIFN1bW1hcnkKClNvZnR3YXJlIGVuZ2luZWVyaW5nIGZ1bmRhbWVudGFscyBtYXR0ZXIgbW9yZSB0aGFuIGV2ZXIuIFRoZXNlIHNraWxscyBhcmUgbXkgYmVzdCBlZmZvcnQgYXQgY29uZGVuc2luZyB0aGVzZSBmdW5kYW1lbnRhbHMgaW50byByZXBlYXRhYmxlIHByYWN0aWNlcywgdG8gaGVscCB5b3Ugc2hpcCB0aGUgYmVzdCBhcHBzIG9mIHlvdXIgY2FyZWVyLiBFbmpveS4KCiMjIFJlZmVyZW5jZQoKVGhlc2Ugc3BsaXQgb24gb25lIGF4aXM6IHdobyBjYW4gaW52b2tlIHRoZW0uICoqVXNlci1pbnZva2VkKiogc2tpbGxzIGFyZSByZWFjaGFibGUgb25seSB3aGVuIHlvdSB0eXBlIHRoZW0gKGUuZy4gYC9ncmlsbC1tZWApOyB0aGVpciBqb2IgaXMgdG8gb3JjaGVzdHJhdGUuICoqTW9kZWwtaW52b2tlZCoqIHNraWxscyBjYW4gYmUgaW52b2tlZCBieSB5b3UgX29yXyByZWFjaGVkIGZvciBhdXRvbWF0aWNhbGx5IGJ5IHRoZSBhZ2VudCB3aGVuIHRoZSB0YXNrIGZpdHM7IHRoZXkgaG9sZCB0aGUgcmV1c2FibGUgZGlzY2lwbGluZS4gQSB1c2VyLWludm9rZWQgc2tpbGwgbWF5IGludm9rZSBtb2RlbC1pbnZva2VkIHNraWxscywgYnV0IG5ldmVyIGFub3RoZXIgdXNlci1pbnZva2VkIG9uZS4KCiMjIyBFbmdpbmVlcmluZwoKU2tpbGxzIEkgdXNlIGRhaWx5IGZvciBjb2RlIHdvcmsuCgoqKlVzZXItaW52b2tlZCoqCgotICoqW2Fzay1tYXR0XSguL3NraWxscy9lbmdpbmVlcmluZy9hc2stbWF0dC9TS0lMTC5tZCkqKjogQXNrIHdoaWNoIHNraWxsIG9yIGZsb3cgZml0cyB5b3VyIHNpdHVhdGlvbi4gQSByb3V0ZXIgb3ZlciB0aGUgdXNlci1pbnZva2VkIHNraWxscyBpbiB0aGlzIHJlcG8uCi0gKipbZ3JpbGwtd2l0aC1kb2NzXSguL3NraWxscy9lbmdpbmVlcmluZy9ncmlsbC13aXRoLWRvY3MvU0tJTEwubWQpKio6IEdyaWxsaW5nIHNlc3Npb24gdGhhdCBhbHNvIGJ1aWxkcyB5b3VyIHByb2plY3QncyBkb21haW4gbW9kZWwsIHNoYXJwZW5pbmcgdGVybWlub2xvZ3kgYW5kIHVwZGF0aW5nIGBHTE9TU0FSWS5tZGAgYW5kIEFEUnMgaW5saW5lLgotICoqW3RyaWFnZV0oLi9za2lsbHMvZW5naW5lZXJpbmcvdHJpYWdlL1NLSUxMLm1kKSoqOiBNb3ZlIGlzc3VlcyB0aHJvdWdoIGEgc3RhdGUgbWFjaGluZSBvZiB0cmlhZ2Ugcm9sZXMuCi0gKipbaW1wcm92ZS1jb2RlYmFzZS1hcmNoaXRlY3R1cmVdKC4vc2tpbGxzL2VuZ2luZWVyaW5nL2ltcHJvdmUtY29kZWJhc2UtYXJjaGl0ZWN0dXJlL1NLSUxMLm1kKSoqOiBTY2FuIGEgY29kZWJhc2UgZm9yIGRlZXBlbmluZyBvcHBvcnR1bml0aWVzLCBwcmVzZW50IHRoZW0gYXMgYSB2aXN1YWwgSFRNTCByZXBvcnQsIHRoZW4gZ3JpbGwgdGhyb3VnaCB3aGljaGV2ZXIgb25lIHlvdSBwaWNrLgotICoqW3NldHVwLW1hdHQtcG9jb2NrLXNraWxsc10oLi9za2lsbHMvZW5naW5lZXJpbmcvc2V0dXAtbWF0dC1wb2NvY2stc2tpbGxzL1NLSUxMLm1kKSoqOiBDb25maWd1cmUgdGhpcyByZXBvIGZvciB0aGUgZW5naW5lZXJpbmcgc2tpbGxzIChpc3N1ZSB0cmFja2VyLCB0cmlhZ2UgbGFiZWxzLCBkb21haW4gZG9jIGxheW91dCkuIFJ1biBvbmNlIHBlciByZXBvIGJlZm9yZSB1c2luZyB0aGUgb3RoZXIgZW5naW5lZXJpbmcgc2tpbGxzLgotICoqW3RvLXNwZWNdKC4vc2tpbGxzL2VuZ2luZWVyaW5nL3RvLXNwZWMvU0tJTEwubWQpKio6IFR1cm4gdGhlIGN1cnJlbnQgY29udmVyc2F0aW9uIGludG8gYSBzcGVjIGFuZCBwdWJsaXNoIGl0IHRvIHRoZSBpc3N1ZSB0cmFja2VyLiBObyBpbnRlcnZpZXcsIGp1c3Qgc3ludGhlc2l6ZXMgd2hhdCB5b3UndmUgYWxyZWFkeSBkaXNjdXNzZWQuCi0gKipbdG8tdGlja2V0c10oLi9za2lsbHMvZW5naW5lZXJpbmcvdG8tdGlja2V0cy9TS0lMTC5tZCkqKjogQnJlYWsgYW55IHBsYW4sIHNwZWMsIG9yIGNvbnZlcnNhdGlvbiBpbnRvIGEgc2V0IG9mIHRyYWNlci1idWxsZXQgdGlja2V0cywgZWFjaCBkZWNsYXJpbmcgaXRzIGJsb2NraW5nIGVkZ2VzLCB3cml0dGVuIGFzIHRleHQgaW4gYSBsb2NhbCBmaWxlLCBvciBhcyBuYXRpdmUgYmxvY2tpbmcgbGlua3Mgb24gYSByZWFsIHRyYWNrZXIuCi0gKipbaW1wbGVtZW50XSguL3NraWxscy9lbmdpbmVlcmluZy9pbXBsZW1lbnQvU0tJTEwubWQpKio6IEJ1aWxkIHRoZSB3b3JrIGRlc2NyaWJlZCBieSBhIHNwZWMgb3Igc2V0IG9mIHRpY2tldHMsIGRyaXZpbmcgYC90ZGRgIGF0IHByZS1hZ3JlZWQgc2VhbXMgYW5kIGNsb3Npbmcgb3V0IHdpdGggYC9jb2RlLXJldmlld2AgYmVmb3JlIGNvbW1pdHRpbmcuCi0gKipbaW1wbGVtZW50LXNwZWNdKC4vc2tpbGxzL2VuZ2luZWVyaW5nL2ltcGxlbWVudC1zcGVjL1NLSUxMLm1kKSoqOiBJbXBsZW1lbnQgYSB3aG9sZSBzcGVjIG9uIG9uZSBpbnRlZ3JhdGlvbiBicmFuY2guIFdvcmtzIHRoZSB0aWNrZXRzIGFzIGEgdGFzayBncmFwaCwgcnVubmluZyBpbXBsZW1lbnRlciBzdWJhZ2VudHMgYWNyb3NzIHRoZSByZWFkeSBmcm9udGllciBmb3IgbWF4aW11bSBjb25jdXJyZW5jeSwgdGhlbiBjbG9zZXMgb3V0IHdpdGggYC9jb2RlLXJldmlld2AuCi0gKipbd2F5ZmluZGVyXSguL3NraWxscy9lbmdpbmVlcmluZy93YXlmaW5kZXIvU0tJTEwubWQpKio6IFBsYW4gYSBodWdlIGNodW5rIG9mIHdvcmssIG1vcmUgdGhhbiBvbmUgYWdlbnQgc2Vzc2lvbiBjYW4gaG9sZCwgYXMgYSBzaGFyZWQgbWFwIG9mIGRlY2lzaW9uIHRpY2tldHMgb24gdGhlIGlzc3VlIHRyYWNrZXIsIGFuZCByZXNvbHZlIHRoZW0gb25lIGF0IGEgdGltZSB1bnRpbCB0aGUgd2F5IHRvIHRoZSBkZXN0aW5hdGlvbiBpcyBjbGVhci4KLSAqKltyZXRyb10oLi9za2lsbHMvZW5naW5lZXJpbmcvcmV0cm8vU0tJTEwubWQpKio6IFN1Z2dlc3QgaW1wcm92ZW1lbnRzIHRvIHRoZSBjb2RpbmcgYWdlbnQncyBlbnZpcm9ubWVudCAobmF2aWdhdGlvbiwgYXV0b21hdGVkIGNoZWNrcywgY29kaW5nIHN0YW5kYXJkcywgc3RlZXJpbmcgZmlsZXMsIHRvb2xpbmcpIGFmdGVyIGEgc2Vzc2lvbiwgbW9zdCBzZXZlcmUgZmlyc3QuCgoqKk1vZGVsLWludm9rZWQqKgoKLSAqKltwcm90b3R5cGVdKC4vc2tpbGxzL2VuZ2luZWVyaW5nL3Byb3RvdHlwZS9TS0lMTC5tZCkqKjogQnVpbGQgYSB0aHJvd2F3YXkgcHJvdG90eXBlIHRvIGFuc3dlciBhIGRlc2lnbiBxdWVzdGlvbiwgZWl0aGVyIGEgc2luZ2xlIHNoYXJlYWJsZSBIVE1MIGZpbGUgZm9yIHN0YXRlL2xvZ2ljIHF1ZXN0aW9ucywgb3Igc2V2ZXJhbCByYWRpY2FsbHkgZGlmZmVyZW50IFVJIHZhcmlhdGlvbnMgdG9nZ2xlYWJsZSBmcm9tIG9uZSByb3V0ZS4KLSAqKltkaWFnbm9zaW5nLWJ1Z3NdKC4vc2tpbGxzL2VuZ2luZWVyaW5nL2RpYWdub3NpbmctYnVncy9TS0lMTC5tZCkqKjogRGlzY2lwbGluZWQgZGlhZ25vc2lzIGxvb3AgZm9yIGhhcmQgYnVncyBhbmQgcGVyZm9ybWFuY2UgcmVncmVzc2lvbnM6IGJ1aWxkIGEgZmVlZGJhY2sgbG9vcCB0aGF0IGdvZXMgcmVkIG9uIHRoaXMgYnVnIOKGkiBtaW5pbWlzZSDihpIgaHlwb3RoZXNpc2Ug4oaSIGluc3RydW1lbnQg4oaSIGZpeCDihpIgcmVncmVzc2lvbi10ZXN0LgotICoqW3Jlc2VhcmNoXSguL3NraWxscy9lbmdpbmVlcmluZy9yZXNlYXJjaC9TS0lMTC5tZCkqKjogSW52ZXN0aWdhdGUgYSBxdWVzdGlvbiBhZ2FpbnN0IGhpZ2gtdHJ1c3QgcHJpbWFyeSBzb3VyY2VzIGFuZCBjYXB0dXJlIHRoZSBmaW5kaW5ncyBhcyBhIGNpdGVkIE1hcmtkb3duIGZpbGUgaW4gdGhlIHJlcG8sIHJ1biBhcyBhIGJhY2tncm91bmQgYWdlbnQuCi0gKipbdGRkXSguL3NraWxscy9lbmdpbmVlcmluZy90ZGQvU0tJTEwubWQpKio6IFRlc3QtZHJpdmVuIGRldmVsb3BtZW50IHdpdGggYSByZWQtZ3JlZW4tcmVmYWN0b3IgbG9vcC4gQnVpbGRzIGZlYXR1cmVzIG9yIGZpeGVzIGJ1Z3Mgb25lIHZlcnRpY2FsIHNsaWNlIGF0IGEgdGltZS4KLSAqKltkb21haW4tbW9kZWxpbmddKC4vc2tpbGxzL2VuZ2luZWVyaW5nL2RvbWFpbi1tb2RlbGluZy9TS0lMTC5tZCkqKjogQWN0aXZlbHkgYnVpbGQgYW5kIHNoYXJwZW4gYSBwcm9qZWN0J3MgZG9tYWluIG1vZGVsOiBjaGFsbGVuZ2UgdGVybXMgYWdhaW5zdCB0aGUgZ2xvc3NhcnksIHN0cmVzcy10ZXN0IHdpdGggZWRnZS1jYXNlIHNjZW5hcmlvcywgYW5kIHVwZGF0ZSBgR0xPU1NBUlkubWRgIGFuZCBBRFJzIGlubGluZS4KLSAqKltjb2RlYmFzZS1kZXNpZ25dKC4vc2tpbGxzL2VuZ2luZWVyaW5nL2NvZGViYXNlLWRlc2lnbi9TS0lMTC5tZCkqKjogU2hhcmVkIGRpc2NpcGxpbmUgYW5kIHZvY2FidWxhcnkgZm9yIGRlc2lnbmluZyBkZWVwIG1vZHVsZXM6IGEgbG90IG9mIGJlaGF2aW91ciBiZWhpbmQgYSBzbWFsbCBpbnRlcmZhY2UsIHBsYWNlZCBhdCBhIGNsZWFuIHNlYW0sIHRlc3RhYmxlIHRocm91Z2ggdGhhdCBpbnRlcmZhY2UuCi0gKipbY29kZS1yZXZpZXddKC4vc2tpbGxzL2VuZ2luZWVyaW5nL2NvZGUtcmV2aWV3L1NLSUxMLm1kKSoqOiBUd28tYXhpcyByZXZpZXcgb2YgdGhlIGRpZmYgc2luY2UgYSBmaXhlZCBwb2ludDogKipTdGFuZGFyZHMqKiAoZG9lcyBpdCBmb2xsb3cgdGhlIHJlcG8ncyBjb2Rpbmcgc3RhbmRhcmRzLCBwbHVzIGEgRm93bGVyIHNtZWxsIGJhc2VsaW5lPykgYW5kICoqU3BlYyoqIChkb2VzIGl0IGZhaXRoZnVsbHkgaW1wbGVtZW50IHRoZSBvcmlnaW5hdGluZyBpc3N1ZS9zcGVjPyksIHJ1biBhcyBwYXJhbGxlbCBzdWItYWdlbnRzIHNvIG5laXRoZXIgcG9sbHV0ZXMgdGhlIG90aGVyLgotICoqW3ByXSguL3NraWxscy9lbmdpbmVlcmluZy9wci9TS0lMTC5tZCkqKjogVGhlIHNoYXBlIGEgcHVsbCByZXF1ZXN0IGJvZHkgc2hvdWxkIHRha2U6IGEgc3VtbWFyeSBhcyB0aGUgc21hbGxlc3QgdmlzdWFsIHRoYXQgbWFrZXMgdGhlIGNoYW5nZSBjbGVhciwgYmVmb3JlL2FmdGVyIGV2aWRlbmNlIHRoYXQgaXQgd29ya3MsIGFuZCBhIG1lcmdlLWRhbmdlciBjYWxsIChvbmUtd2F5IG9yIHR3by13YXkgZG9vciwgcGx1cyBibGFzdCByYWRpdXMpLgotICoqW3dpemFyZF0oLi9za2lsbHMvZW5naW5lZXJpbmcvd2l6YXJkL1NLSUxMLm1kKSoqOiBHZW5lcmF0ZSBhbiBpbnRlcmFjdGl2ZSBiYXNoIHdpemFyZCB0aGF0IHdhbGtzIGEgaHVtYW4gdGhyb3VnaCBzdGVwcyBvbmx5IHRoZXkgY2FuIHBlcmZvcm06IHByb3Zpc2lvbmluZyBpbmZyYXN0cnVjdHVyZSwgc2V0dGluZyB1cCBjcmVkZW50aWFscyBvciBDSSBzZWNyZXRzLCB3YWxraW5nIGFuIHVuZmFtaWxpYXIgdGhpcmQtcGFydHkgZGFzaGJvYXJkLCBvciBydW5uaW5nIGEgb25lLW9mZiBtaWdyYXRpb24gb3IgY3V0b3Zlci4KCiMjIyBQcm9kdWN0aXZpdHkKCkdlbmVyYWwgd29ya2Zsb3cgdG9vbHMsIG5vdCBjb2RlLXNwZWNpZmljLgoKKipVc2VyLWludm9rZWQqKgoKLSAqKltncmlsbC1tZV0oLi9za2lsbHMvcHJvZHVjdGl2aXR5L2dyaWxsLW1lL1NLSUxMLm1kKSoqOiBHZXQgcmVsZW50bGVzc2x5IGludGVydmlld2VkIGFib3V0IGEgcGxhbiBvciBkZXNpZ24gdW50aWwgZXZlcnkgYnJhbmNoIG9mIHRoZSBkZXNpZ24gdHJlZSBpcyByZXNvbHZlZC4KLSAqKltoYW5kb2ZmXSguL3NraWxscy9wcm9kdWN0aXZpdHkvaGFuZG9mZi9TS0lMTC5tZCkqKjogQ29tcGFjdCB0aGUgY3VycmVudCBjb252ZXJzYXRpb24gaW50byBhIGhhbmRvZmYgZG9jdW1lbnQgc28gYW5vdGhlciBhZ2VudCBjYW4gY29udGludWUgdGhlIHdvcmsuCi0gKipbdGVhY2hdKC4vc2tpbGxzL3Byb2R1Y3Rpdml0eS90ZWFjaC9TS0lMTC5tZCkqKjogVGVhY2ggdGhlIHVzZXIgYSBuZXcgc2tpbGwgb3IgY29uY2VwdCBvdmVyIG11bHRpcGxlIHNlc3Npb25zLCB1c2luZyB0aGUgY3VycmVudCBkaXJlY3RvcnkgYXMgYSBzdGF0ZWZ1bCB0ZWFjaGluZyB3b3Jrc3BhY2UuCi0gKipbdG8tcXVlc3Rpb25uYWlyZV0oLi9za2lsbHMvcHJvZHVjdGl2aXR5L3RvLXF1ZXN0aW9ubmFpcmUvU0tJTEwubWQpKio6IFR1cm4gYSBkZWNpc2lvbiB5b3UgY2FuJ3QgYW5zd2VyIGFsb25lIGludG8gYSBNYXJrZG93biBxdWVzdGlvbm5haXJlIGZvciB0aGUgb25lIHBlcnNvbiB3aG8gY2FuLCBmaWxsZWQgaW4gYXN5bmMsIG9yIHRvZ2V0aGVyIG92ZXIgYSBtZWV0aW5nLiBJdCBncmlsbHMgeW91IGFib3V0IHRoZSBzZW5kICh3aG8gaXQncyBmb3IsIHdoYXQgeW91IG5lZWQgYmFjayksIG5vdCB0aGUgc3ViamVjdC4KLSAqKlt3YWl0LXdoYXRdKC4vc2tpbGxzL3Byb2R1Y3Rpdml0eS93YWl0LXdoYXQvU0tJTEwubWQpKio6IEZpcmUgdGhpcyB0aGUgbW9tZW50IGEgbWVzc2FnZSBkb2Vzbid0IGxhbmQuIFRoZSBhZ2VudCByZS1waXRjaGVzIGl0IHdpdGggdGhlIGNvbnRleHQgeW91J3JlIG1pc3NpbmcsIGluIHBsYWluIEVuZ2xpc2gsIHVzaW5nIHlvdXIgYEdMT1NTQVJZLm1kYCB2b2NhYnVsYXJ5LgoKKipNb2RlbC1pbnZva2VkKioKCi0gKipbZ3JpbGxpbmddKC4vc2tpbGxzL3Byb2R1Y3Rpdml0eS9ncmlsbGluZy9TS0lMTC5tZCkqKjogSW50ZXJ2aWV3IHRoZSB1c2VyIHJlbGVudGxlc3NseSBhYm91dCBhIHBsYW4sIGRlY2lzaW9uLCBvciBpZGVhIHVudGlsIGV2ZXJ5IGJyYW5jaCBvZiB0aGUgZGVzaWduIHRyZWUgaXMgcmVzb2x2ZWQuIFRoZSByZXVzYWJsZSBpbnRlcnZpZXcgcHJpbWl0aXZlIGJlaGluZCBgZ3JpbGwtbWVgLCBgZ3JpbGwtd2l0aC1kb2NzYCwgYHRyaWFnZWAsIGB3YXlmaW5kZXJgIGFuZCBgaW1wcm92ZS1jb2RlYmFzZS1hcmNoaXRlY3R1cmVgLgotICoqW3dyaXRpbmctZm9yLWFnZW50c10oLi9za2lsbHMvcHJvZHVjdGl2aXR5L3dyaXRpbmctZm9yLWFnZW50cy9TS0lMTC5tZCkqKjogV3JpdGluZyBkb2N1bWVudHMgZm9yIGFnZW50czogc2tpbGxzLCBBR0VOVFMubWQvQ0xBVURFLm1kLCBhbmQgYW55IGRvYyBhbiBhZ2VudCByZWFjaGVzIGJ5IGEgcG9pbnRlci4K
+<p>
+  <a href="https://www.aihero.dev/s/skills-newsletter">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png">
+      <source media="(prefers-color-scheme: light)" srcset="https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png">
+      <img alt="Skills" src="https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png" width="369">
+    </picture>
+  </a>
+</p>
+
+# Skills For Real Engineers
+
+[![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)
+
+My agent skills that I use every day to do real engineering - not vibe coding.
+
+Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve.
+
+These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy.
+
+If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter:
+
+[Sign Up To The Newsletter](https://www.aihero.dev/s/skills-newsletter)
+
+## Installation (30-second setup)
+
+A plugin updates itself. [skills.sh](https://skills.sh/mattpocock/skills) copies editable files into your project, and you update them by hand. Pick one per agent, because installing both gives you every skill twice.
+
+### 1. Get the skills
+
+<details>
+<summary><strong>Claude Code</strong></summary>
+
+```bash
+claude plugin install mattpocock-skills@claude-plugins-official
+```
+
+Updates itself by default.
+
+</details>
+
+<details>
+<summary><strong>Codex</strong></summary>
+
+```bash
+codex plugin marketplace add mattpocock/skills
+codex plugin add mattpocock-skills@mattpocock
+```
+
+Updates itself at startup.
+
+</details>
+
+<details>
+<summary><strong>GitHub Copilot</strong> (CLI and VS Code)</summary>
+
+```bash
+copilot plugin marketplace add mattpocock/skills
+copilot plugin install mattpocock-skills@mattpocock
+```
+
+Then, once, add to `~/.copilot/settings.json`:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "mattpocock": { "source": { "source": "github", "repo": "mattpocock/skills" }, "autoUpdate": true }
+  }
+}
+```
+
+In VS Code, run **Chat: Install Plugin From Source** and enter `https://github.com/mattpocock/skills`. It updates daily.
+
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong> (manual updates)</summary>
+
+```bash
+gemini skills install https://github.com/mattpocock/skills.git --path skills/engineering
+gemini skills install https://github.com/mattpocock/skills.git --path skills/productivity
+```
+
+Re-run both commands to update.
+
+</details>
+
+<details>
+<summary><strong>Any other agent, or editable files</strong> (manual updates)</summary>
+
+```bash
+npx skills@latest add mattpocock/skills -a <agent>  # cursor, opencode, devin, windsurf, amp, pi; omit -a to choose
+```
+
+When the installer asks which skills to take, include `setup-matt-pocock-skills`. To update, run `npx skills@latest update`, and re-run `add` to pick up new skills.
+
+</details>
+
+### 2. Run `/setup-matt-pocock-skills`
+
+In your agent, run it once per repo. It will:
+
+- Ask you which issue tracker you want to use (GitHub, GitLab, local files, or anything else you describe)
+- Ask you what labels you apply to tickets when you triage them (`/triage` uses labels)
+- Ask you where you want to save any docs we create
+
+### 3. Bam - you're ready to go.
+
+## Why These Skills Exist
+
+I built these skills as a way to fix common failure modes I see with Claude Code, Codex, and other coding agents.
+
+### #1: The Agent Didn't Do What I Want
+
+> "No-one knows exactly what they want"
+>
+> David Thomas & Andrew Hunt, [The Pragmatic Programmer](https://www.amazon.co.uk/Pragmatic-Programmer-Anniversary-Journey-Mastery/dp/B0833F1T3V)
+
+**The Problem**. The most common failure mode in software development is misalignment. You think the dev knows what you want. Then you see what they've built - and you realize it didn't understand you at all.
+
+This is just the same in the AI age. There is a communication gap between you and the agent. The fix for this is a **grilling session** - getting the agent to ask you detailed questions about what you're building.
+
+**The Fix** is to use:
+
+- [`/grill-me`](./skills/productivity/grill-me/SKILL.md) - for non-code uses
+- [`/grill-with-docs`](./skills/engineering/grill-with-docs/SKILL.md) - same as [`/grill-me`](./skills/productivity/grill-me/SKILL.md), but adds more goodies (see below)
+
+These are my most popular skills. They help you align with the agent before you get started, and think deeply about the change you're making. Use them _every_ time you want to make a change.
+
+### #2: The Agent Is Way Too Verbose
+
+> With a ubiquitous language, conversations among developers and expressions of the code are all derived from the same domain model.
+>
+> Eric Evans, [Domain-Driven-Design](https://www.amazon.co.uk/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)
+
+**The Problem**: At the start of a project, devs and the people they're building the software for (the domain experts) are usually speaking different languages.
+
+I felt the same tension with my agents. Agents are usually dropped into a project and asked to figure out the jargon as they go. So they use 20 words where 1 will do.
+
+**The Fix** for this is a shared language. It's a document that helps agents decode the jargon used in the project.
+
+<details>
+<summary>
+Example
+</summary>
+
+Here's an example [glossary](https://github.com/mattpocock/course-video-manager/blob/076a5a7a182db0fe1e62971dd7a68bcadf010f1c/CONTEXT.md) (still named `CONTEXT.md` at that pinned commit, from before the skills renamed the convention), from my `course-video-manager` repo. Which one is easier to read?
+
+- **BEFORE**: "There's a problem when a lesson inside a section of a course is made 'real' (i.e. given a spot in the file system)"
+- **AFTER**: "There's a problem with the materialization cascade"
+
+This concision pays off session after session.
+
+</details>
+
+This is built into [`/grill-with-docs`](./skills/engineering/grill-with-docs/SKILL.md). It's a grilling session, but that helps you build a shared language with the AI, and document hard-to-explain decisions in ADR's.
+
+It's hard to explain how powerful this is. It might be the single coolest technique in this repo. Try it, and see.
+
+> [!TIP]
+> A shared language has many other benefits than reducing verbosity:
+>
+> - **Variables, functions and files are named consistently**, using the shared language
+> - As a result, the **codebase is easier to navigate** for the agent
+> - The agent also **spends fewer tokens on thinking**, because it has access to a more concise language
+
+### #3: The Code Doesn't Work
+
+> "Always take small, deliberate steps. The rate of feedback is your speed limit. Never take on a task that’s too big."
+>
+> David Thomas & Andrew Hunt, [The Pragmatic Programmer](https://www.amazon.co.uk/Pragmatic-Programmer-Anniversary-Journey-Mastery/dp/B0833F1T3V)
+
+**The Problem**: Let's say that you and the agent are aligned on what to build. What happens when the agent _still_ produces crap?
+
+It's time to look at your feedback loops. Without feedback on how the code it produces actually runs, the agent will be flying blind.
+
+**The Fix**: You need the usual tranche of feedback loops: static types, browser access, and automated tests.
+
+For automated tests, a red-green-refactor loop is critical. This is where the agent writes a failing test first, then fixes the test. This helps give the agent a consistent level of feedback that results in far better code.
+
+I've built a **[`/tdd`](./skills/engineering/tdd/SKILL.md) skill** you can slot into any project. It encourages red-green-refactor and gives the agent plenty of guidance on what makes good and bad tests.
+
+For debugging, I've also built a **[`/diagnosing-bugs`](./skills/engineering/diagnosing-bugs/SKILL.md)** skill that wraps best debugging practices into a disciplined loop, gated phase by phase.
+
+### #4: We Built A Ball Of Mud
+
+> "Invest in the design of the system _every day_."
+>
+> Kent Beck, [Extreme Programming Explained](https://www.amazon.co.uk/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
+
+> "The best modules are deep. They allow a lot of functionality to be accessed through a simple interface."
+>
+> John Ousterhout, [A Philosophy Of Software Design](https://www.amazon.co.uk/Philosophy-Software-Design-2nd/dp/173210221X)
+
+**The Problem**: Most apps built with agents are complex and hard to change. Because agents can radically speed up coding, they also accelerate software entropy. Codebases get more complex at an unprecedented rate.
+
+**The Fix** for this is a radical new approach to AI-powered development: caring about the design of the code.
+
+This is built in to every layer of these skills:
+
+- [`/to-spec`](./skills/engineering/to-spec/SKILL.md) quizzes you about which modules you're touching before creating a spec
+
+And crucially, [`/improve-codebase-architecture`](./skills/engineering/improve-codebase-architecture/SKILL.md) surveys a codebase for deepening opportunities and hands you the candidates. I recommend running it on your codebase once every few days. It is a survey, not a rescue: on a genuinely old codebase it will find real candidates, but it won't untangle the mud for you.
+
+### Summary
+
+Software engineering fundamentals matter more than ever. These skills are my best effort at condensing these fundamentals into repeatable practices, to help you ship the best apps of your career. Enjoy.
+
+## Reference
+
+These split on one axis: who can invoke them. **User-invoked** skills are reachable only when you type them (e.g. `/grill-me`); their job is to orchestrate. **Model-invoked** skills can be invoked by you _or_ reached for automatically by the agent when the task fits; they hold the reusable discipline. A user-invoked skill may invoke model-invoked skills, but never another user-invoked one.
+
+### Engineering
+
+Skills I use daily for code work.
+
+**User-invoked**
+
+- **[ask-matt](./skills/engineering/ask-matt/SKILL.md)**: Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.
+- **[grill-with-docs](./skills/engineering/grill-with-docs/SKILL.md)**: Grilling session that also builds your project's domain model, sharpening terminology and updating `GLOSSARY.md` and ADRs inline.
+- **[triage](./skills/engineering/triage/SKILL.md)**: Move issues through a state machine of triage roles.
+- **[improve-codebase-architecture](./skills/engineering/improve-codebase-architecture/SKILL.md)**: Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
+- **[setup-matt-pocock-skills](./skills/engineering/setup-matt-pocock-skills/SKILL.md)**: Configure this repo for the engineering skills (issue tracker, triage labels, domain doc layout). Run once per repo before using the other engineering skills.
+- **[to-spec](./skills/engineering/to-spec/SKILL.md)**: Turn the current conversation into a spec and publish it to the issue tracker. No interview, just synthesizes what you've already discussed.
+- **[to-tickets](./skills/engineering/to-tickets/SKILL.md)**: Break any plan, spec, or conversation into a set of tracer-bullet tickets, each declaring its blocking edges, written as text in a local file, or as native blocking links on a real tracker.
+- **[implement](./skills/engineering/implement/SKILL.md)**: Build the work described by a spec or set of tickets, driving `/tdd` at pre-agreed seams and closing out with `/code-review` before committing.
+- **[implement-spec](./skills/engineering/implement-spec/SKILL.md)**: Implement a whole spec on one integration branch. Works the tickets as a task graph, running implementer subagents across the ready frontier for maximum concurrency, then closes out with `/code-review`.
+- **[wayfinder](./skills/engineering/wayfinder/SKILL.md)**: Plan a huge chunk of work, more than one agent session can hold, as a shared map of decision tickets on the issue tracker, and resolve them one at a time until the way to the destination is clear.
+- **[retro](./skills/engineering/retro/SKILL.md)**: Suggest improvements to the coding agent's environment (navigation, automated checks, coding standards, steering files, tooling) after a session, most severe first.
+
+**Model-invoked**
+
+- **[prototype](./skills/engineering/prototype/SKILL.md)**: Build a throwaway prototype to answer a design question, either a single shareable HTML file for state/logic questions, or several radically different UI variations toggleable from one route.
+- **[diagnosing-bugs](./skills/engineering/diagnosing-bugs/SKILL.md)**: Disciplined diagnosis loop for hard bugs and performance regressions: build a feedback loop that goes red on this bug → minimise → hypothesise → instrument → fix → regression-test.
+- **[research](./skills/engineering/research/SKILL.md)**: Investigate a question against high-trust primary sources and capture the findings as a cited Markdown file in the repo, run as a background agent.
+- **[tdd](./skills/engineering/tdd/SKILL.md)**: Test-driven development with a red-green-refactor loop. Builds features or fixes bugs one vertical slice at a time.
+- **[domain-modeling](./skills/engineering/domain-modeling/SKILL.md)**: Actively build and sharpen a project's domain model: challenge terms against the glossary, stress-test with edge-case scenarios, and update `GLOSSARY.md` and ADRs inline.
+- **[codebase-design](./skills/engineering/codebase-design/SKILL.md)**: Shared discipline and vocabulary for designing deep modules: a lot of behaviour behind a small interface, placed at a clean seam, testable through that interface.
+- **[code-review](./skills/engineering/code-review/SKILL.md)**: Two-axis review of the diff since a fixed point: **Standards** (does it follow the repo's coding standards, plus a Fowler smell baseline?) and **Spec** (does it faithfully implement the originating issue/spec?), run as parallel sub-agents so neither pollutes the other.
+- **[pr](./skills/engineering/pr/SKILL.md)**: The shape a pull request body should take: a summary as the smallest visual that makes the change clear, before/after evidence that it works, and a merge-danger call (one-way or two-way door, plus blast radius).
+- **[wizard](./skills/engineering/wizard/SKILL.md)**: Generate an interactive bash wizard that walks a human through steps only they can perform: provisioning infrastructure, setting up credentials or CI secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover.
+
+### Productivity
+
+General workflow tools, not code-specific.
+
+**User-invoked**
+
+- **[grill-me](./skills/productivity/grill-me/SKILL.md)**: Get relentlessly interviewed about a plan or design until every branch of the design tree is resolved.
+- **[handoff](./skills/productivity/handoff/SKILL.md)**: Compact the current conversation into a handoff document so another agent can continue the work.
+- **[teach](./skills/productivity/teach/SKILL.md)**: Teach the user a new skill or concept over multiple sessions, using the current directory as a stateful teaching workspace.
+- **[to-questionnaire](./skills/productivity/to-questionnaire/SKILL.md)**: Turn a decision you can't answer alone into a Markdown questionnaire for the one person who can, filled in async, or together over a meeting. It grills you about the send (who it's for, what you need back), not the subject.
+- **[wait-what](./skills/productivity/wait-what/SKILL.md)**: Fire this the moment a message doesn't land. The agent re-pitches it with the context you're missing, in plain English, using your `GLOSSARY.md` vocabulary.
+
+**Model-invoked**
+
+- **[grilling](./skills/productivity/grilling/SKILL.md)**: Interview the user relentlessly about a plan, decision, or idea until every branch of the design tree is resolved. The reusable interview primitive behind `grill-me`, `grill-with-docs`, `triage`, `wayfinder` and `improve-codebase-architecture`.
+- **[writing-for-agents](./skills/productivity/writing-for-agents/SKILL.md)**: Writing documents for agents: skills, AGENTS.md/CLAUDE.md, and any doc an agent reaches by a pointer.
